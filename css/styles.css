@@ -35,11 +35,11 @@ header h2 {
 }
 
 .navbar {
-  background-color:darkorchid;
+  background-color: darkorchid;
 }
 
 .tab-content {
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
   border-top: none;
   padding: 10px;
 }

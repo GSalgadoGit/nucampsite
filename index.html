@@ -19,6 +19,7 @@
 
 <body>
 
+  <!-- data-html="true" allows the strong tag works in the title attribute -->
     <header class="jumbotron jumbo jumbotron-fluid">
         <div class="container">
             <div class="row">
@@ -29,9 +30,12 @@
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>
-                <div class="col-12 col-md-4  align-self-center">
+                <div class="col-md-4 col-xl-2 mt-4">
                   <a href='#reserveForm'>
-                    <button class="btn btn-info btn-lg">Reserve Campsite</button>
+                    <button class="btn btn-info btn-lg" data-toggle="tooltip" data-html="true" 
+                                   title="Or call us at <strong>704-763-4444</strong>">
+                      Reserve Campsite
+                    </button>
                   </a>
                 </div>
             </div>
@@ -172,6 +176,10 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>$(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
 </body>
 
 <!--
