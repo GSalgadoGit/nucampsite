@@ -43,3 +43,12 @@ header h2 {
   border-top: none;
   padding: 10px;
 }
+
+/* This to make a black contrast to read easier the Caption for the carousel  */
+.carousel-caption {
+  background-color: rgba(0,0, 0, 0.5);
+}
+
+.carousel {
+  border: solid #5637dd;
+}
