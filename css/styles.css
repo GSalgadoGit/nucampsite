@@ -1,61 +1,60 @@
 body {
-  font-family: "Open Sans", sans-serif;
-}
+  font-family: "Open Sans", sans-serif; }
 
 h1,
 h2,
 h3 {
-  font-family: "Lobster", cursive;
-}
+  font-family: "Lobster", cursive; }
 
 h2 {
-  color: #3046c5;
-}
+  color: #3046c5; }
 
 header h2 {
-  color: #cec8ff;
-}
+  color: #cec8ff; }
 
 .site-footer {
   background-image: linear-gradient(#cec8ff, white);
-  padding: 20px 0;
-}
+  padding: 20px 0; }
 
 .jumbotron {
   margin-bottom: 0;
   padding: 30px;
   background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
-  color: white;
-}
+  color: white; }
 
 .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
-  min-height: 200px;
-}
+  min-height: 200px; }
 
 .navbar {
-  background-color: darkorchid;
-}
+  background-color: #901cad; }
 
 .tab-content {
   border: 1px solid #ddd;
   border-top: none;
-  padding: 10px;
-}
+  padding: 10px; }
 
 /* This to make a black contrast to read easier the Caption for the carousel  */
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-  border: solid #5637dd;
-}
+  border: solid #5637dd; }
 
 #carouselButton {
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 100; /* Overlapping elements with a larger z-index cover those with a smaller one. */
-}
+  z-index: 100;
+  /* Overlapping elements with a larger z-index cover those with a smaller one. */ }
+
+/*
+Install the Sass compiler
+
+Check your Node version using the node -v command. (v16.13.2)
+npm install --save-dev node-sass@6
+
+To compile the .scss file to a .css file:
+npm run scss
+*/
