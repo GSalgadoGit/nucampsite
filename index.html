@@ -296,23 +296,7 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- implement a toggle pause/play button functionality via the jQuery click() method -->
-    <script>
-      $(function() {   
-        $(".carousel").carousel( {interval:2000});
-
-        $("#carouselButton").click(function(){
-          if ($("#carouselButton").children("i").hasClass("fa-pause")) {
-                $(".carousel").carousel("pause");
-                $("#carouselButton").children("i").removeClass("fa-pause");
-                $("#carouselButton").children("i").addClass("fa-play");
-          } else {
-                $(".carousel").carousel("cycle");
-                $("#carouselButton").children("i").removeClass("fa-play");
-                $("#carouselButton").children("i").addClass("fa-pause"); 
-                  }
-        });
-      });
-    </script>
+    <script src="js/scripts.js"> </script>
 
 </body>
 
@@ -332,6 +316,12 @@
     "test": "echo \"Error: no test specified\" && exit 1" }
 
     Add Bootstrap code in the <head> section & after the <footer>
+
+    This is from Week 4
+    npm install --save-dev onchange@7.0.0
+    npm install --save-dev -E parallelshell@3.0.1
+    
+
 -->
 
 </html>
