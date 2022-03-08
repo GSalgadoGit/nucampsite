@@ -5,14 +5,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     
+      
     <!-- Additional CSS must be placed after Bootstrap CSS -->
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
     <title>NuCamp - A Better Way To Camp</title>
 </head>
@@ -291,12 +295,16 @@
         </div>
     </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <!-- implement a toggle pause/play button functionality via the jQuery click() method -->
     <script src="js/scripts.js"> </script>
+    <!-- endbuild -->
+
+    <!-- "js/scripts.js" implements a toggle pause/play button functionality via the jQuery click() method -->
+    
 
 </body>
 
@@ -320,7 +328,12 @@
     This is from Week 4
     npm install --save-dev onchange@7.0.0
     npm install --save-dev -E parallelshell@3.0.1
-    
+
+    npm install --save-dev copyfiles@2.2.0
+    npm install --save-dev imagemin-cli@5.1.0
+    npm install --save-dev usemin-cli@0.6.0
+    npm install --save-dev rimraf@3.0.2
+
 
 -->
 
