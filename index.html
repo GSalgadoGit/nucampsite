@@ -36,7 +36,7 @@
                 <div class="col-md-4 col-xl-2 mt-4">
                   <!-- Add reserve Modal form when this button is clicked-->
                   <a>
-                    <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#reserveModal">
+                    <button class="btn btn-info btn-lg" id="reserveButton">
                       Reserve Campsite
                     </button>
                   </a>
@@ -49,7 +49,7 @@
         <div id="reserveModal" class="modal fade" role="dialog">
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-              <div class="modal-header bg-info text-white">
+              <div class="modal-header">
                 <h3 class="modal-title">Reserve a Campsite</h3>
                 <button type="=button" class="close" data-dismiss="modal">&times;</button>
               </div>
@@ -120,7 +120,7 @@
                   <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
               </ul>
               <span class="navbar-text ml-auto">
-                <a role="button" data-toggle="modal" data-target="#loginModal">
+                <a role="button" id="loginButton">
                  <i class="fa fa-sign-in"></i> Login
                 </a>
               </span>
